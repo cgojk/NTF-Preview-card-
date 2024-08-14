@@ -201,5 +201,15 @@ border:2px solid white;
     cursor:pointer;
 }
 
+@media (max-width:576px){
+    main{
+        padding:6em 2em 2em 2em;
+    }
+    .attribution{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        
+    }
+}
 
-/* footer */
